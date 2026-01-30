@@ -22,9 +22,9 @@ class TwoSum(object):
                 if b in self.dic:
                     return True
             else: # a == b
-                if self.dic(b) >= 2:
+                if self.dic[b] >= 2:
                     return True
-            return False
+        return False
 
         
 

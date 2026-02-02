@@ -10,6 +10,7 @@ class Solution(object):
         area = 0
         while i < j:
             area = max(area , (j-i) * min(height[i],height[j])) # area=(j−i)∗min(height[i],height[j])
+            
 
             if height[i] > height[j]:
                 j -= 1

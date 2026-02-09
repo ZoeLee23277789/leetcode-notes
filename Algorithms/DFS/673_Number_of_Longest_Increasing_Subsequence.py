@@ -29,3 +29,6 @@ class Solution(object):
             if length[i] == L:
                 ans += count[i]
         return ans
+    
+
+

@@ -13,6 +13,6 @@ class Solution(object):
             Max = max(num, prev_max*num, prev_min*num)
             Min = min(num, prev_max*num, prev_min*num)
 
-            ans = max(ans, prev_max, prev_min)
+            ans = max(ans, Max, Min)
 
         return ans
